@@ -1,23 +1,21 @@
 
 # Integração Contínua: testes automatizados e pipeline no Github Actions
 
-Aprenda sobre as vantangens de utilizar o Github Actions
 
-Saiba como criar uma rotina de integração contínua
+Como criar uma rotina de integração contínua.
 
-Entenda o que é uma pipeline
+Foi tratado as vantagens de ter uma rotina de CI, e as vantagens de utilizar o Github Actions.
 
-Configure uma rotina para executar a cada commit
+Entendendo o que é uma pipeline.
 
-Descubra as vantagens de ter uma rotina de CI
+Como realizar testes em uma aplicação de forma automática.
 
-Realize testes em uma aplicação de forma automática
-
+Configuração das rotinas para serem executadas em cada commit realidado.
 
 
 Aplicação feita em GO, para ser utilizado no curso do CI/CD com o Github Actions
 
-[Link do curso](https://www.alura.com.br/curso-online-integracao-continua-testes-automatizados-pipeline-github-actions)
+[Curso Alura](https://www.alura.com.br/curso-online-integracao-continua-testes-automatizados-pipeline-github-actions)
 
 
 
@@ -57,9 +55,12 @@ $ go run main.go
 
 Para certificar que a aplicação subiu basta acessar a porta 8080 da sua máquina, e no final da url adicione uma barra e o seu nome para receber uma mensagem.
 
+
 &nbsp;&nbsp;&nbsp;&nbsp;[http://localhost:8080/italo](http://localhost:8080/italo)
-    
+
+
 Como retorno, veremos:
+
 
 ```json
 {"API diz": "E ai italo, Tudo beleza?")
